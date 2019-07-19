@@ -1,0 +1,40 @@
+.logo-content img {
+    width:70px
+}
+.logo {
+    display: flex;
+    float:left;
+}
+.links {
+    display:flex;
+
+    
+}
+.links li {
+    float:left;
+    margin-left:9%;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: bold;
+    cursor: pointer;
+    color:white;
+    display: inline-table;
+    
+
+} 
+.navbar-container , .navbar{
+    display:flex;
+    height:70px;
+}
+.navbar-container {
+    margin:auto;
+    background-color: #D65A31;
+}
+.navbar {
+    border-bottom: 5px solid #D65A31;
+    background-color: #D65A31;
+}
+.links ul {
+    padding-left:0px;
+    display: -webkit-box;
+}
