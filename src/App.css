@@ -79,3 +79,16 @@ body{
 .blog-title {
   color:black;
 }
+@media only screen and (max-width: 500px) { 
+  .content-image img {
+    width: 100%;
+  }
+  .content-paragraph{
+  text-align: center;
+  display: inline-block;
+  width: 90%;
+  }
+  .paragraph-container {
+    padding-left: 0px;
+  }
+}

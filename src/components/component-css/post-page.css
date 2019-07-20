@@ -4,3 +4,14 @@
     margin-top: 6%;
     color:White
 }
+@media only screen and (max-width: 500px) { 
+    .post-container {
+      width: 80%;
+    }
+    .post-title h1 {
+        margin-bottom: 0px;
+    }
+    .post-content p {
+        margin-top: 3px;
+    }
+  }

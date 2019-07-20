@@ -35,7 +35,7 @@ class BlogComponent extends Component {
 
     openPostPage = (post) => {
         return (<PostPage post= {post} />)
-        console.log(post);
+        
         
     }
 

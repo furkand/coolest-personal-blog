@@ -33,8 +33,49 @@
 .navbar {
     border-bottom: 5px solid #D65A31;
     background-color: #D65A31;
+    padding-top: 5px; 
 }
 .links ul {
     padding-left:0px;
     display: -webkit-box;
 }
+
+@media only screen and (max-width: 500px) {
+
+    #menu {
+        display: inline-grid ;
+    }
+    .logo{
+        display: none;
+    }
+    .content{
+        margin:0px
+    }
+    .navbar-container {
+        margin-top: 50%;
+    }
+    .menuicon{
+        width: 30px;
+        height: 30px;
+    }
+    .navbar {
+        height: 40px;
+        width: 100%;
+    }
+    .nav__toggle {
+        top:10px;
+    }
+    .links li {
+        margin: 0;
+    }
+    #nav {
+        background-color: #222831;
+    }
+
+  }
+
+  @media only screen and (min-width: 500px) {
+    .nav__toggle {display:none}
+  
+  
+  }
